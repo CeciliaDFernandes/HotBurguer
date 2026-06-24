@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HotBurguer · Pedido</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pedido.css" />
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <i class="fas fa-burger"></i> Hot<span>Burguer</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Início</a>
+                <a href="sobre.html"><i class="fas fa-info-circle"></i> Sobre</a>
+                <a href="cardapio.html"><i class="fas fa-utensils"></i> Cardápio</a>
+                <a href="pedido.html" class="pedido-link active"><i class="fas fa-shopping-cart"></i> Pedido</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="pedido-section">
+            <h2><i class="fas fa-shopping-cart" style="color: #e67e22;"></i> Faça seu Pedido</h2>
+            <p class="subtitle">
+                <i class="fas fa-info-circle"></i> Preencha os dados abaixo e clique em "Enviar Pedido"
+            </p>
+
+            <div class="pedido-container">
+                <div class="pedido-form">
+                    <form id="formPedido">
+                        <label for="nome"><i class="fas fa-user"></i> Nome completo</label>
+                        <input type="text" id="nome" placeholder="Seu nome" required />
+
+                        <label for="telefone"><i class="fas fa-phone"></i> Telefone</label>
+                        <input type="tel" id="telefone" placeholder="(11) 99999-9999" required />
+
+                        <label for="endereco"><i class="fas fa-map-marker-alt"></i> Endereço de entrega</label>
+                        <input type="text" id="endereco" placeholder="Rua, número, bairro" required />
+
+                        <label for="pedido"><i class="fas fa-utensils"></i> Seu pedido</label>
+                        <select id="pedido" required>
+                            <option value="">Selecione um hambúrguer...</option>
+                            <option value="X-Bacon Supremo">X-Bacon Supremo - R$ 29,90</option>
+                            <option value="Duplo Cheddar">Duplo Cheddar - R$ 34,90</option>
+                            <option value="Chilli Burguer">Chilli Burguer - R$ 32,50</option>
+                            <option value="Veggie Power">Veggie Power - R$ 28,90</option>
+                            <option value="Breakfast Burger">Breakfast Burger - R$ 26,90</option>
+                            <option value="Hot Inferno">Hot Inferno - R$ 36,90</option>
+                            <option value="Chicken Crispy">Chicken Crispy - R$ 27,90</option>
+                            <option value="Mushroom Swiss">Mushroom Swiss - R$ 31,50</option>
+                        </select>
+
+                        <label for="observacoes"><i class="fas fa-comment"></i> Observações</label>
+                        <textarea id="observacoes" placeholder="Ex: Sem cebola, extra bacon..."></textarea>
+
+                        <button type="submit" class="btn-enviar">
+                            <i class="fas fa-paper-plane"></i> Enviar Pedido
+                        </button>
+                    </form>
+                </div>
+
+                <div class="pedido-resumo">
+                    <h3><i class="fas fa-shopping-bag"></i> Resumo do Pedido</h3>
+                    <div id="resumoItens">
+                        <div class="vazio">
+                            <i class="fas fa-shopping-cart" style="font-size: 3rem; display: block; margin-bottom: 1rem;"></i>
+                            Nenhum item selecionado
+                        </div>
+                    </div>
+                    <div class="total">
+                        Total: <span id="totalPedido">R$ 0,00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <h4>HotBurguer</h4>
+                <p style="color: #b8957a; max-width: 200px;">O melhor hambúrguer artesanal da cidade. Sabor que aquece.</p>
+            </div>
+            <div>
+                <h4>Navegação</h4>
+                <a href="index.html"><i class="fas fa-home"></i> Início</a>
+                <a href="sobre.html"><i class="fas fa-info-circle"></i> Sobre</a>
+                <a href="cardapio.html"><i class="fas fa-utensils"></i> Cardápio</a>
+                <a href="pedido.html"><i class="fas fa-shopping-cart"></i> Pedido</a>
+            </div>
+            <div>
+                <h4>Contato</h4>
+                <a href="#"><i class="fas fa-phone"></i> (11) 99999-9999</a>
+                <a href="#"><i class="fas fa-envelope"></i> contato@hotburguer.com</a>
+                <a href="#"><i class="fab fa-instagram"></i> @hotburguer</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>🍔 HotBurguer · todos os direitos reservados · 2026</p>
+            <p style="font-size: 0.8rem; margin-top: 0.3rem;">projeto GitHub · Início · Sobre · Cardápio · Pedido</p>
+        </div>
+    </footer>
+
+    <script src="pedido.js"></script>
+</body>
+</html>
