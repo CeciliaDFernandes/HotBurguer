@@ -66,16 +66,16 @@ cd hotburguer
 Abra o arquivo index.html no seu navegador:
 
 bash
-# No Windows
+No Windows
 start index.html
 
-# No Mac
+No Mac
 open index.html
 
-# No Linux
+No Linux
 xdg-open index.html
 
-Contato
+🤝Contato
 Desenvolvedor: Adna Cecília Dantas Fernandes
 Email: cecilia.fernandes61@aluno.ifce.edu.br
 Mátricula: 20261322030036
