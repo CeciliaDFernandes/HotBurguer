@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HotBurguer · Sobre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="sobre.css" />
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <i class="fas fa-burger"></i> Hot<span>Burguer</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Início</a>
+                <a href="sobre.html" class="active"><i class="fas fa-info-circle"></i> Sobre</a>
+                <a href="cardapio.html"><i class="fas fa-utensils"></i> Cardápio</a>
+                <a href="pedido.html" class="pedido-link"><i class="fas fa-shopping-cart"></i> Pedido</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre o HotBurguer</h2>
+                    <p>
+                        Fundada em <span class="highlight">2020</span>, a <strong>HotBurguer</strong> nasceu da paixão por 
+                        hambúrgueres artesanais e ingredientes de qualidade. Nossa missão é oferecer uma experiência 
+                        gastronômica única, combinando sabores intensos com um atendimento acolhedor.
+                    </p>
+                    <p>
+                        Utilizamos <span class="highlight">carnes 100% frescas</span>, pães artesanais e molhos 
+                        exclusivos preparados diariamente. Cada hambúrguer é feito sob medida para garantir 
+                        o máximo de sabor e suculência.
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt" style="color: #e67e22;"></i> 
+                        <strong>Endereço:</strong> Rua dos Sabores, 123 - Centro, São Paulo - SP
+                    </p>
+                    <p>
+                        <i class="fas fa-clock" style="color: #e67e22;"></i> 
+                        <strong>Horário:</strong> Terça a Domingo, 18h às 23h
+                    </p>
+                </div>
+                <div class="about-image">
+                    <i class="fas fa-burger"></i>
+                </div>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-item">
+                    <i class="fas fa-leaf"></i>
+                    <h4>Ingredientes Frescos</h4>
+                    <p>Selecionamos os melhores produtos da região</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-heart"></i>
+                    <h4>Feito com Amor</h4>
+                    <p>Receitas preparadas com dedicação e carinho</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-star"></i>
+                    <h4>Qualidade Garantida</h4>
+                    <p>Padrão de excelência em cada detalhe</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-recycle"></i>
+                    <h4>Sustentabilidade</h4>
+                    <p>Compromisso com o meio ambiente e a comunidade</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <h4>HotBurguer</h4>
+                <p style="color: #b8957a; max-width: 200px;">O melhor hambúrguer artesanal da cidade. Sabor que aquece.</p>
+            </div>
+            <div>
+                <h4>Navegação</h4>
+                <a href="index.html"><i class="fas fa-home"></i> Início</a>
+                <a href="sobre.html"><i class="fas fa-info-circle"></i> Sobre</a>
+                <a href="cardapio.html"><i class="fas fa-utensils"></i> Cardápio</a>
+                <a href="pedido.html"><i class="fas fa-shopping-cart"></i> Pedido</a>
+            </div>
+            <div>
+                <h4>Contato</h4>
+                <a href="#"><i class="fas fa-phone"></i> (11) 99999-9999</a>
+                <a href="#"><i class="fas fa-envelope"></i> contato@hotburguer.com</a>
+                <a href="#"><i class="fab fa-instagram"></i> @hotburguer</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>🍔 HotBurguer · todos os direitos reservados · 2026</p>
+            <p style="font-size: 0.8rem; margin-top: 0.3rem;">projeto GitHub · Início · Sobre · Cardápio · Pedido</p>
+        </div>
+    </footer>
+</body>
+</html>
