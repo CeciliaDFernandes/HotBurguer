@@ -1,0 +1,19 @@
+# 1. Crie uma nova branch a partir da main atual
+git checkout main
+git checkout -b minha-correcao
+
+# 2. Faça suas alterações nos arquivos
+# (edite os arquivos que precisa)
+
+# 3. Commit suas alterações
+git add .
+git commit -m "Corrigindo arquivos e recuperando controle"
+
+# 4. Push da sua branch
+git push origin minha-correcao
+
+# 5. Vá no GitHub e crie um Pull Request
+# De: minha-correcao → Para: main
+
+# 6. Peça para revisarem e aprovarem o PR
+# Depois faça o merge
