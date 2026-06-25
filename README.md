@@ -81,3 +81,9 @@ Desenvolvedor: Adna Cecília Dantas Fernandes
 Email: cecilia.fernandes61@aluno.ifce.edu.br
 Mátricula: 20261322030036
 GitHub: github.com/CeciliaDFernandes
+
+Desenvolvedor: Antônio Cleiton Távora Silva
+Email: antonio.silva03@aluno.igce.edu.br
+Mátricula: 20261322030002
+GitHub: github.com/Antoniosilva03-UX
+
