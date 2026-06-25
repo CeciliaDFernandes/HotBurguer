@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HotBurg - Especialidades</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#111;
+    color:#fff;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1400&q=80');
+    background-size:cover;
+    background-position:center;
+    height:70vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:5rem;
+    letter-spacing:3px;
+    color:#ff4d00;
+}
+
+.hero p{
+    font-size:1.2rem;
+    max-width:600px;
+    margin:auto;
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.titulo{
+    text-align:center;
+    font-size:3rem;
+    color:#ff4d00;
+    margin-bottom:50px;
+    font-family:'Bebas Neue',sans-serif;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#1b1b1b;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+    border:1px solid #2c2c2c;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:25px;
+}
+
+.card h3{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#ccc;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.preco{
+    font-size:2rem;
+    color:#ff4d00;
+    font-weight:bold;
+}
+
+.btn{
+    display:block;
+    width:100%;
+    margin-top:20px;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#ff4d00;
+    color:#fff;
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#e14000;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:25px;
+    color:#999;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>HOT BURG</h1>
+        <p>
+            Hambúrgueres artesanais preparados com ingredientes selecionados,
+            sabor intenso e qualidade em cada mordida.
+        </p>
+    </div>
+</header>
+
+<section>
+
+<h2 class="titulo">Especialidades da Casa</h2>
+
+<div class="grid">
+
+    <!-- CAJU BURG -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1520072959219-c595dc870360?w=1000&q=80" alt="Hambúrguer Vegano">
+        <div class="card-content">
+            <h3>🌿 Caju Burg Premium</h3>
+
+            <p>
+                Hambúrguer artesanal de caju temperado,
+                queijo vegetal à base de castanha de caju,
+                alface americana, tomate fresco e molho
+                especial vegano.
+            </p>
+
+            <div class="preco">R$ 26,90</div>
+
+            <button class="btn">
+                Adicionar ao Pedido
+            </button>
+        </div>
+    </div>
+
+    <!-- PICANHA DA SERRA -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=1000&q=80" alt="Duplo Cheddar">
+        <div class="card-content">
+            <h3>🔥 Picanha da Serra</h3>
+
+            <p>
+                Duplo hambúrguer bovino de 180g cada,
+                dupla camada de cheddar cremoso,
+                cebola caramelizada e molho especial HotBurg.
+            </p>
+
+            <div class="preco">R$ 39,90</div>
+
+            <button class="btn">
+                Adicionar ao Pedido
+            </button>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<footer>
+    © 2026 HotBurg - O sabor que aquece 🔥
+</footer>
+
+</body>
+</html>
